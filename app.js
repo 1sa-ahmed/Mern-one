@@ -1,47 +1,54 @@
-// Isa Ahmed assignment - 1 code  
-//Send data to Console with template Literal 
-let names = prompt('what is your name?');
-console.log(`My name is ${names}`);
+// Isa Ahmed assignment - 1 code
+//1. Send data to Console with template Literal
+// let names = prompt('Name plz');
+// let age = prompt('Age plz');
+// let classs = prompt('class plz');
+// console.log(
+//   `Hi ${names}, you are ${age} years old and you are in class ${classs}`
+// );
+//2. Make a devs info console project
+// let names = 'ahmed';
+// let Cname = 'coder IT';
+// let skill = 'js dev';
+// let loc = 'Usa';
 
-//Make a devs info console project
-let dev_name = prompt('what is your name in your CV?')
-let your_old = prompt('How old are you?')
-let skill    = prompt('What are you expert in?');
+// console.log(`
+//   Hi ${names}, you work at ${Cname} with a skill of ${skill} and the location of the area is ${loc}.
+// `);
 
-console.info(`My name is ${dev_name}. My age is ${your_old}. I am expert in ${skill} Developer.`);
+//3. Make a result marks project
+// let Sname = prompt('School name ');
+// let Cname = prompt('Certified name');
+// let roll = prompt('What is your roll');
 
-//Make a result marks project
-let school = prompt('What is your school name?');
-let student_name = prompt(`What is your name in certificate?`);
-let roll_num = 20;
+// let en = Number(prompt('english marks')),
+//   es = parseInt(prompt('Spanish marks')),
+//   mh = parseFloat(prompt('Math Marks')),
+//   sc = +prompt('Scince marks'),
+//   rel = parseFloat(prompt('Religion'));
 
-let bd =+ prompt(`What is your bangla score?`);
-let en =+ prompt(`What is your English score?`);
-let mh = Number(prompt(`What is your Math score?`));
-let sc = Number(prompt(`What is your Science score?`));
-let sp =+ prompt(`What is your Spanish score?`);
-let rn =+ prompt(`What is your Religion score?`);
+// let total = en + es + mh + sc + rel;
 
-let total = bd + en + mh + sc + sp + rn;
+// console.log(`
+//   School Name - ${Sname}
+//   Certified Name - ${Cname}
+//   Roll Num - ${roll}
 
-console.log(`
-  Your School Name   - ${school}
-  Student Name       - ${student_name}
-  Student Roll       - ${roll_num}
+//   Subject Name    Marks
+//   ----------------------
+//   English       = ${en}
+//   Spanish       = ${es}
+//   Math          = ${mh}
+//   Science       = ${sc}
+//   Religion      = ${rel}
+//   -----------------------
+//   Total Marks   = ${total}
 
-    Subject name        Marks
-    -------------------------
-    Bangla            = ${bd}
-    English           = ${en}
-    Math              = ${mh}
-    Science           = ${sc}
-    Spanish           = ${sp}
-    Religion          = ${rn}
-    -------------------------
-    Total Marks      => ${total}
-`);
+// `);
+//4. Make a kobol project
+// let names = prompt('What is your name?');
+// let verify = confirm('Are you ready to Marriage "' + names + '" ?');
 
-// Make a kobol project
-
-// let marryAgree = ;
-console.log(confirm('If you agree to marry, say ok orelse cancel.'))
+// console.log(verify);
+// console.log(`  |
+//   -> True = Yes && false = No`);
